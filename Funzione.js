@@ -2,7 +2,7 @@ var studentArray =["Andre1", "Andre2", "Andre3", "Ste1", "Ste2", "Paolo", "Elia"
 
 function shuffle(ar){  
       
-    
+    // x la gloria
     for (let i = ar.length - 1; i > 0; i--){
         let j = Math.floor(Math.random() * (i + 1));
         let x = ar[i];
